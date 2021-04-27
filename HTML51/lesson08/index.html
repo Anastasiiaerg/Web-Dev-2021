@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>
+                Форма регистрации
+            </legend>
+            <div class="container">
+                <label for="fullname">
+                    ФИО 
+                </label>
+                <input type="text" name="NAME" class="form" required="required">
+            </div>
+            <div class="container">
+                <label for="email">
+                    Email 
+                </label>
+                <input type="email" name="Email" class="form" required="required">
+            </div>
+            <div class="container">
+                <label for="phone">
+                    Номер телефона
+                </label>
+                <input type="tel" name="Phone" class="form" required="required" pattern="\(\d{3,4}\) \d{2,3}-\d{2}-\d{2}">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Параметры доставки
+            </legend>
+            <div class="container">
+                <label for="address">
+                    Адрес
+                </label>
+                <textarea name="address" id="address" rows="5" class="form"></textarea>
+            </div>
+            <div class="container">
+                <label for="posrcode">
+                    Почтовый индекс 
+                </label>
+                <input type="text" name="Postcode" class="form">
+            </div>
+        </fieldset>
+        <fieldset>
+            <button type="submit">
+                Отправить данные
+            </button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
