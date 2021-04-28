@@ -1,0 +1,138 @@
+body {
+    background-color: #FFFFE0;
+    margin: 0;
+}
+
+#title {
+    text-align: center;
+    color: #B8860B;
+    font-family: sans-serif;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.nav_link {
+    text-decoration: none;
+    padding: 50px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #BDB76B;
+}
+
+li,
+ul {
+    list-style-type: none;
+    display: inline;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-color: #F5DEB3;
+}
+
+nav {
+    text-align: center;
+}
+
+.countries {
+    border: 1px solid #F5DEB3;
+    width: 200px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #8B4513;
+}
+
+h2 {
+    font-family: serif;
+    font-size: 22px;
+    color: #800000;
+    margin: 0;
+    padding-top: 5px;
+    text-align: center;
+}
+
+button {
+    background-color: #F5DEB3;
+    border-color: #F5DEB3;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.text_button {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #BDB76B;
+}
+
+.section {
+    text-align: center;
+    display: flex;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.form_input {
+    border: 1px solid #BC8F8F;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 7px 7px 5px #DEB887;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+
+input {
+    background-color: #FFE4C4;
+    height: 30px;
+    width: 250px;
+    margin: 5px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.botton_form {
+    text-align: center;
+    border-style: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    margin: 5px;
+}
+
+.container {
+    padding-top: 10px;
+    background-color: #FAFAD2;
+    padding-bottom: 30px;
+}
+
+p {
+    font-family: serif;
+    font-size: 16px;
+    text-align: center;
+    color: #800000;
+}
+
+footer {
+    background-color: #F5DEB3;
+}
+
+.footer_text {
+    text-align: left;
+    margin: 10px;
+}
+
+.footer_title {
+    text-align: left;
+    margin: 10px;
+}
+
+.footer {
+    text-align: center;
+}
