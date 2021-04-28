@@ -1,0 +1,46 @@
+body {
+    background-color: #FFFFE0;
+    margin: 0;
+}
+
+.countries {
+    border: 1px solid #F5DEB3;
+    width: 200px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #8B4513;
+}
+
+h2 {
+    font-family: serif;
+    font-size: 22px;
+    color: #800000;
+    margin: 0;
+    padding-top: 5px;
+    text-align: center;
+}
+
+button {
+    background-color: #F5DEB3;
+    border-color: #F5DEB3;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.text_button {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #BDB76B;
+}
+
+.section {
+    text-align: center;
+    display: flex;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto
+}
