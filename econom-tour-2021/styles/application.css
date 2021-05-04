@@ -3,6 +3,30 @@ body {
     margin: 0;
 }
 
+.nav_link {
+    text-decoration: none;
+    padding: 50px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #BDB76B;
+}
+
+li,
+ul {
+    list-style-type: none;
+    display: inline;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-color: #F5DEB3;
+}
+
+nav {
+    text-align: center;
+}
+
 .container {
     padding-top: 10px;
     background-color: #FAFAD2;

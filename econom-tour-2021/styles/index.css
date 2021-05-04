@@ -58,3 +58,16 @@ footer {
 .footer {
     text-align: center;
 }
+
+.news_title {
+    text-align: center;
+    margin: 5px;
+}
+
+.news_text {
+    text-align: left;
+}
+
+.section {
+    display: inline;
+}
