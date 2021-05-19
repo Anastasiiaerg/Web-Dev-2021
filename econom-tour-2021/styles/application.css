@@ -27,35 +27,6 @@ nav {
     padding-bottom: 30px;
 }
 
-.form_input {
-    border: 1px solid #BC8F8F;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-    box-shadow: 7px 7px 5px #DEB887;
-    padding-top: 15px;
-    box-sizing: border-box;
-}
-
-input {
-    background-color: #FFE4C4;
-    height: 30px;
-    width: 250px;
-    margin: 5px;
-    border-style: none;
-    border-radius: 10px;
-}
-
-.botton_form {
-    text-align: center;
-    border-style: none;
-    border-radius: 10px;
-    height: 30px;
-    width: 100px;
-    margin: 5px;
-}
-
 p {
     font-family: serif;
     font-size: 16px;
